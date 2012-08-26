@@ -2,8 +2,6 @@
 layout: page
 title: Chad DeShon
 ---
-{% include JB/setup %}
-
 <ul class="posts">
 {% for post in site.posts limit: 5 %}
   <div class="post_info">
