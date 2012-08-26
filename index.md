@@ -11,7 +11,7 @@ title: Chad DeShon
             <a href="{{ post.url }}">{{ post.title }}</a>
             <span>({{ post.date | date:"%Y-%m-%d" }})</span>
     </li>
-    </br> <em>{{ post.excerpt }} </em>
+    </br> <em>{{ post.content }} </em>
     </div>
   {% endfor %}
 </ul>
