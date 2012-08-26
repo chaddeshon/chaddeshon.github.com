@@ -1,3 +1,1 @@
-{% for page in paginator.posts %}
-  {% include single_page.html %}
-{% endfor %}
+aglkjaglkagsga
