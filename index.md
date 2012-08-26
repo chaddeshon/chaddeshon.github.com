@@ -1,16 +1,3 @@
----
-layout: page
-title: Chad DeShon
----
-<ul class="posts">
-{% for post in site.posts limit: 5 %}
-  <div class="post_info">
-    <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-            <span>({{ post.date | date:"%Y-%m-%d" }})</span>
-    </li>
-    </br> <em>{{ post.content }} </em>
-    </div>
-  {% endfor %}
-</ul>
-
+{% for page in paginator.posts %}
+  {% include single_page.html %}
+{% endfor %}
